@@ -1,0 +1,81 @@
+{
+  "dataset": "Traffic",
+  "model": "TimeMixer (Baseline)",
+  "seq_len": 96,
+  "n_features": 862,
+  "timestamp": "2026-10-05T11:24:51.139437",
+  "results": {
+    "96": {
+      "metrics": {
+        "mse": 0.467204213142395,
+        "mae": 0.29159116744995117,
+        "rmse": 0.6835233569145203,
+        "mape": 324.33612060546875,
+        "smape": 52.10128402709961
+      },
+      "paper_reference": {
+        "mse": 0.462,
+        "mae": 0.285
+      },
+      "delta_mse": 0.005204213142394998,
+      "delta_mae": 0.006591167449951196,
+      "n_test_samples": 342,
+      "checkpoint": "C:\\AiProjectNew\\TimeMixer_Project\\checkpoints\\long_term_forecast_Traffic_96_96_paper_none_TimeMixer_custom_sl96_pl96_dm32_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_paper_0\\checkpoint.pth",
+      "inference_time_sec": 71.96073532104492
+    },
+    "192": {
+      "metrics": {
+        "mse": 0.4775114357471466,
+        "mae": 0.29312753677368164,
+        "rmse": 0.6910220384597778,
+        "mape": 302.7593688964844,
+        "smape": 51.58988952636719
+      },
+      "paper_reference": {
+        "mse": 0.474,
+        "mae": 0.292
+      },
+      "delta_mse": 0.0035114357471466295,
+      "delta_mae": 0.0011275367736816588,
+      "n_test_samples": 332,
+      "checkpoint": "C:\\AiProjectNew\\TimeMixer_Project\\checkpoints\\long_term_forecast_Traffic_96_192_paper_none_TimeMixer_custom_sl96_pl192_dm32_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_paper_0\\checkpoint.pth",
+      "inference_time_sec": 72.22636365890503
+    },
+    "336": {
+      "metrics": {
+        "mse": 0.48391926288604736,
+        "mae": 0.2997105121612549,
+        "rmse": 0.6956430673599243,
+        "mape": 318.3978271484375,
+        "smape": 52.476139068603516
+      },
+      "paper_reference": {
+        "mse": 0.494,
+        "mae": 0.302
+      },
+      "delta_mse": -0.010080737113952631,
+      "delta_mae": -0.002289487838745108,
+      "n_test_samples": 318,
+      "checkpoint": "C:\\AiProjectNew\\TimeMixer_Project\\checkpoints\\Traffic_96_336_checkpoint.pth",
+      "inference_time_sec": 89.28557085990906
+    },
+    "720": {
+      "metrics": {
+        "mse": 0.5217434167861938,
+        "mae": 0.3167547881603241,
+        "rmse": 0.7223181128501892,
+        "mape": 330.6127624511719,
+        "smape": 55.032135009765625
+      },
+      "paper_reference": {
+        "mse": 0.529,
+        "mae": 0.322
+      },
+      "delta_mse": -0.007256583213806178,
+      "delta_mae": -0.005245211839675912,
+      "n_test_samples": 279,
+      "checkpoint": "C:\\AiProjectNew\\TimeMixer_Project\\checkpoints\\Traffic_96_720_checkpoint.pth",
+      "inference_time_sec": 115.3673574924469
+    }
+  }
+}

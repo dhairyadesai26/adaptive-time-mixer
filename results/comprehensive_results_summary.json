@@ -1,0 +1,242 @@
+{
+  "timestamp": "2026-11-01T00:47:45.819857",
+  "traffic_results": [
+    {
+      "dataset": "Traffic",
+      "horizon": 96,
+      "model": "baseline",
+      "mse": 0.006564479786902666,
+      "mae": 0.05761713534593582,
+      "rmse": 0.08102148026227951,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 96,
+      "model": "adaptive",
+      "mse": 0.0018275335896760225,
+      "mae": 0.0289100743830204,
+      "rmse": 0.042749661952257156,
+      "overhead_params": 11604
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 96,
+      "model": "no_context",
+      "mse": 0.0014443021500483155,
+      "mae": 0.024873938411474228,
+      "rmse": 0.03800397366285324,
+      "overhead_params": 1764
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 96,
+      "model": "no_horizon",
+      "mse": 0.00542302243411541,
+      "mae": 0.05185340717434883,
+      "rmse": 0.07364117354154587,
+      "overhead_params": 10004
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 96,
+      "model": "fixed",
+      "mse": 0.005477494094520807,
+      "mae": 0.05214381217956543,
+      "rmse": 0.07401009649038315,
+      "overhead_params": 4
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 192,
+      "model": "baseline",
+      "mse": 0.009126930497586727,
+      "mae": 0.06835201382637024,
+      "rmse": 0.09553497284650803,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 192,
+      "model": "adaptive",
+      "mse": 0.00220436486415565,
+      "mae": 0.03010588139295578,
+      "rmse": 0.04695066437125206,
+      "overhead_params": 11604
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 192,
+      "model": "no_context",
+      "mse": 0.0012200436322018504,
+      "mae": 0.019367100670933723,
+      "rmse": 0.034929122775793076,
+      "overhead_params": 1764
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 192,
+      "model": "no_horizon",
+      "mse": 0.007032797671854496,
+      "mae": 0.05953090637922287,
+      "rmse": 0.08386177569627762,
+      "overhead_params": 10004
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 192,
+      "model": "fixed",
+      "mse": 0.0072174472734332085,
+      "mae": 0.060361046344041824,
+      "rmse": 0.08495555818080902,
+      "overhead_params": 4
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 336,
+      "model": "baseline",
+      "mse": 0.007950025610625744,
+      "mae": 0.06540937721729279,
+      "rmse": 0.0891629159450531,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 336,
+      "model": "adaptive",
+      "mse": 0.001982548041269183,
+      "mae": 0.027946515008807182,
+      "rmse": 0.044525813311338425,
+      "overhead_params": 11604
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 336,
+      "model": "no_context",
+      "mse": 0.001407842617481947,
+      "mae": 0.022044368088245392,
+      "rmse": 0.037521228194236755,
+      "overhead_params": 1764
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 336,
+      "model": "no_horizon",
+      "mse": 0.0064413584768772125,
+      "mae": 0.058217763900756836,
+      "rmse": 0.0802580714225769,
+      "overhead_params": 10004
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 336,
+      "model": "fixed",
+      "mse": 0.0065353331156075,
+      "mae": 0.058693233877420425,
+      "rmse": 0.08084140717983246,
+      "overhead_params": 4
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 720,
+      "model": "baseline",
+      "mse": 0.005693428218364716,
+      "mae": 0.05538856238126755,
+      "rmse": 0.07545480877161026,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 720,
+      "model": "adaptive",
+      "mse": 0.001532598165795207,
+      "mae": 0.02381272427737713,
+      "rmse": 0.03914841264486313,
+      "overhead_params": 11604
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 720,
+      "model": "no_context",
+      "mse": 0.0016900630434975028,
+      "mae": 0.025345826521515846,
+      "rmse": 0.04111037775874138,
+      "overhead_params": 1764
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 720,
+      "model": "no_horizon",
+      "mse": 0.004577494226396084,
+      "mae": 0.049128804355859756,
+      "rmse": 0.06765718013048172,
+      "overhead_params": 10004
+    },
+    {
+      "dataset": "Traffic",
+      "horizon": 720,
+      "model": "fixed",
+      "mse": 0.004616710357367992,
+      "mae": 0.04936379939317703,
+      "rmse": 0.06794638186693192,
+      "overhead_params": 4
+    },
+    {
+      "dataset": "Weather",
+      "horizon": 96,
+      "model": "baseline",
+      "mse": 5695.57177734375,
+      "mae": 22.863849639892578,
+      "rmse": 75.46900939941406,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Weather",
+      "horizon": 96,
+      "model": "adaptive",
+      "mse": 5346.7158203125,
+      "mae": 21.02507972717285,
+      "rmse": 73.1212387084961,
+      "overhead_params": 2988
+    },
+    {
+      "dataset": "Weather",
+      "horizon": 192,
+      "model": "baseline",
+      "mse": 4804.5654296875,
+      "mae": 21.734731674194336,
+      "rmse": 69.31497192382812,
+      "overhead_params": 0
+    },
+    {
+      "dataset": "Weather",
+      "horizon": 192,
+      "model": "adaptive",
+      "mse": 4800.71337890625,
+      "mae": 21.100553512573242,
+      "rmse": 69.28717803955078,
+      "overhead_params": 2988
+    }
+  ],
+  "multi_seed_96": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "mse": 0.0016832316759973764,
+        "mae": 0.02758186124265194
+      },
+      {
+        "seed": 2025,
+        "mse": 0.0015871556242927909,
+        "mae": 0.026884647086262703
+      },
+      {
+        "seed": 2026,
+        "mse": 0.0018275335896760225,
+        "mae": 0.0289100743830204
+      }
+    ],
+    "mean_mse": 0.0016993069633220632,
+    "std_mse": 9.879002212563086e-05
+  }
+}

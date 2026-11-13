@@ -1,0 +1,14 @@
+{
+  "model": "baseline",
+  "dataset": "Traffic",
+  "seq_len": 96,
+  "pred_len": 192,
+  "total_params": 106433,
+  "trainable_params": 106433,
+  "checkpoint_path": "checkpoints\\long_term_forecast_Traffic_96_192_paper_none_TimeMixer_custom_sl96_pl192_dm32_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_paper_0\\checkpoint.pth",
+  "checkpoint_size_bytes": 1099829,
+  "checkpoint_sha256": "bc32a6afd68bf3883971916e2e1ecc4b10660d3c4de3ff71e0176cddc965816d",
+  "device": "cpu",
+  "timestamp": "2026-09-22T02:01:50.287812",
+  "evaluation_note": "Test-only evaluation from saved checkpoint"
+}

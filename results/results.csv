@@ -1,0 +1,2 @@
+model,dataset,seq_len,pred_len,mse,mae,rmse,mape,smape,params,train_time_min
+baseline,Traffic,96,192,nan,nan,nan,nan,nan,106433,?

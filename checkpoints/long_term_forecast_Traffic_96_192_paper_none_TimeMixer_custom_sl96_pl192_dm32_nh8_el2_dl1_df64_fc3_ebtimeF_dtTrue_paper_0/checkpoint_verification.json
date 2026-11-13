@@ -1,0 +1,8 @@
+{
+  "path": "/content/drive/MyDrive/TimeMixer_Project/checkpoints/long_term_forecast_Traffic_96_192_paper_none_TimeMixer_custom_sl96_pl192_dm32_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_paper_0/checkpoint.pth",
+  "exists": true,
+  "valid": true,
+  "sha256": "0cd9d40d4cbeb51e13fa6e3269811e1771c185908486ad8cc4949d2e77fe2cad",
+  "size_bytes": 1099829,
+  "error": null
+}
